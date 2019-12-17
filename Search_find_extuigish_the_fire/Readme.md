@@ -10,15 +10,17 @@ We divided this project into three different module.
   3) Bhavior Module
   
   **Sensor Module**<br/>
-Choice of sensor two Ladar sensor, one color sensor, one light sensor. We read all sensor in real time using multi threading programming for real time sensor update.
+Choice of sensor two Sonar sensor, one color sensor, one light sensor. We read all sensor in real time using multi threading programming for real time sensor update.
 
-  1) One Ladar sensor is responsible to detect the front of robot. Once wall is detected front of robot, it stop it's forward movement to 
-  avoid collision from wall
+  Sensor Choice: 
+  1.	Color sensor: Color sensor is to detect the color of title. Once color sensor detects goal (Red color tile), it interrupts and stop 
+  the current task and initialize the extinguish the fire behavior.
+  2.	Light sensor: Light sensor is used Light sensor search for light intensity. After observing the threshold light reading light sensor 
+  trigger the follow the light source to reach near the fire (Above the red title).
+  3.	Front Sonar: Front sonar the mounted to look the obstacle at from of robot. After detecting the obstacle at the front, it interrupts 
+  the robot move forward functionality, stop it from further forward movement until obstacle get clear or robot change its direction toward 
+  obstacle free direction.
+  4.	Right side Sonar: Right side sonar is used to maintain safe distance from right side of wall, keep robot near the wall in wall 
+  Following behavior with safe distance from wall. It also looks for right side door opening and turn the robot toward it right and certain 
+  number of left turns to avoid closed loop behavior and getting stuck in one room forever.
 
-  2) Second Ladar was responsible to detect wall from at right side of robot. It reading will use to change the room in wall follow module
-  and keep robot near the wall in wall follow.
-
-  3) Color sensor is reasonsible to read color of ground fire are is marked with red color. With color reading robot will recognise the if
-  it reached near the fire to start extuiguish mechanism.
-
-  4) Fire sensor is resonsible to look for fire near the robot
