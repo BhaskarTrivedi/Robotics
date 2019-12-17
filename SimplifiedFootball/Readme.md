@@ -19,7 +19,7 @@ We divided this project into three different.
  2) Control Module
  3) Bhavior Module
  
-Sensor Module<br/>
+**Sensor Module**<br/>
 Choice of sensor two IR sensor, one color sensor, one gyro sensor. We read all sensor in real time using multi threading programming for real time sensor update.
 
 One IR sensor is responsible to detect the ball. Once ball is detected by IR sensor one robot switched to fallow the ball behavior
@@ -32,5 +32,12 @@ Color sensor is reasonsible to read color of field and once it detect opponent a
 
 Robot always start facing opponent area so gyro sensor is used to keep track of opponent goal direction.
 
-Behavior Module
+**Behavior Module**<br/>
+We divided behavior in different task which robot need to perform to win the match.
+ 1) Explore: Robot always start with explore mode Its main job to scan the area as fast as possible to detect the IR ball
+ 2) Follow the ball: Once IR ball is detected we switched our robot into follow the ball mode. Depending upon the IR sensor reading
+ robot move forward toward ball or move forward with clockwise or anti clockwise curve toward the ball.
+ 3) Push the ball: Once robot reach near the ball robot behavior change to push the ball. With help of gyro reading robot move clockwise or anticlockwise toward opponent defense. Once robot turn towards opponent it pushes the ball towards opponent defence to score the goal.
+
+
 
