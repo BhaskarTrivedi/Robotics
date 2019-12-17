@@ -9,7 +9,7 @@ We divided this project into three different module.
   2) Control Module
   3) Bhavior Module
   
-  **Sensor Module**
+  **Sensor Module**<br/>
 Choice of sensor two Ladar sensor, one color sensor, one light sensor. We read all sensor in real time using multi threading programming for real time sensor update.
 
   1) One Ladar sensor is responsible to detect the front of robot. Once wall is detected front of robot, it stop it's forward movement to 
