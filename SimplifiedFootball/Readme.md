@@ -4,16 +4,6 @@ Football match is played by using IR ball and each team is provided IR sensor to
 of sensor. 
 Each team compete each other in free space that is middle area of field and try to push IR ball to opponent area such that ball should hit 
 opponet wall. 
-<br/>Click on below image to watch video
-[![Watch Video here](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_171113.jpg)](https://www.youtube.com/watch?v=r3mJFe0_mjg&feature=youtu.be)
-
-![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170534.jpg)
-
-![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170600.jpg)
-
-![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170606.jpg)
-
-![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170613.jpg)
 
 We divided this project into three different module.
  1) Sensor Module
@@ -49,6 +39,19 @@ We divided behavior in different task which robot need to perform to win the mat
    5) MoveTowardsBall : Responsible to handle control of robot to achieve Follow the ball behavior
    6) PushToGoal : Responsible to handle control of robot to score goal in opponent area.
    7) ExecuteRetreat : Responsible to handle control of robot to for explore behavior.
+
+<br/>Click on below image to watch video
+[![Watch Video here](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_171113.jpg)](https://www.youtube.com/watch?v=r3mJFe0_mjg&feature=youtu.be)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170534.jpg)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170600.jpg)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170606.jpg)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170613.jpg)
+
+
 
 
 
