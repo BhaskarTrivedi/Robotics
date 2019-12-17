@@ -14,7 +14,7 @@ opponet wall.
 
 ![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170613.jpg)
 
-We divided this project into three different.
+We divided this project into three different module.
  1) Sensor Module
  2) Control Module
  3) Bhavior Module
@@ -38,6 +38,16 @@ We divided behavior in different task which robot need to perform to win the mat
  2) Follow the ball: Once IR ball is detected we switched our robot into follow the ball mode. Depending upon the IR sensor reading
  robot move forward toward ball or move forward with clockwise or anti clockwise curve toward the ball.
  3) Push the ball: Once robot reach near the ball robot behavior change to push the ball. With help of gyro reading robot move clockwise or anticlockwise toward opponent defense. Once robot turn towards opponent it pushes the ball towards opponent defence to score the goal.
+ 
+ **Control Module**<br/>
+   Control Module was responsible for low level handing of robot and deal with motor rotation to achive required functinality.
+   1) Move forward: Responsible to move robot in forward direction with specified distance with given speed.
+   2) Move backward: Responsible to move robot in backward direction with specified distance with given speed.
+   3) Turn Clockwise: Responsible to turn robot in clockwise direction with specified angle
+   4) Turn Anticlockwise: Responsible to turn robot in anticlockwise direction with specified angle
+   5) MoveTowardsBall : Responsible to handle control of robot to achieve Follow the ball behavior
+   6) PushToGoal : Responsible to handle control of robot to score goal in opponent area.
+   7) ExecuteRetreat : Responsible to handle control of robot to for explore behavior.
 
 
 
