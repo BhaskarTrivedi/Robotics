@@ -22,15 +22,15 @@ We divided this project into three different.
 **Sensor Module**<br/>
 Choice of sensor two IR sensor, one color sensor, one gyro sensor. We read all sensor in real time using multi threading programming for real time sensor update.
 
-One IR sensor is responsible to detect the ball. Once ball is detected by IR sensor one robot switched to fallow the ball behavior
+ 1) One IR sensor is responsible to detect the ball. Once ball is detected by IR sensor one robot switched to fallow the ball behavior
 
-Second IR was also responsible to detect the ball but we design the second IR sensor such that it detect the ball with reading 4,5 or 6
+ 2) Second IR was also responsible to detect the ball but we design the second IR sensor such that it detect the ball with reading 4,5 or 6
 only when ball is in front of robot. Once IR ball is detected by second sensor robot immediatly switched to push the ball behavior to push 
 the ball in opponent area.
 
-Color sensor is reasonsible to read color of field and once it detect opponent area retreat behavior get fired whose job to come back from opponent area. 
-
-Robot always start facing opponent area so gyro sensor is used to keep track of opponent goal direction.
+ 3) Color sensor is reasonsible to read color of field and once it detect opponent area retreat behavior get fired whose job to come
+ back from opponent area. 
+ 4) Gyro sensor: Robot always start facing opponent area so gyro sensor is used to keep track of opponent goal direction.
 
 **Behavior Module**<br/>
 We divided behavior in different task which robot need to perform to win the match.
