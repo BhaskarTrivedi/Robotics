@@ -5,3 +5,11 @@ of sensor.
 Each team compete each other in free space that is middle area of field and try to push IR ball to opponent area such that ball should hit 
 opponet wall. 
 ![Image of field divided into three areas](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_171113.jpg)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170534.jpg)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170600.jpg)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170606.jpg)
+
+![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170613.jpg)
