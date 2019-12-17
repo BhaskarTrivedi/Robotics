@@ -19,7 +19,7 @@ We divided this project into three different.
  2) Control Module
  3) Bhavior Module
  
-Sensor Module
+Sensor Module<br/>
 Choice of sensor two IR sensor, one color sensor, one gyro sensor. We read all sensor in real time using multi threading programming for real time sensor update.
 
 One IR sensor is responsible to detect the ball. Once ball is detected by IR sensor one robot switched to fallow the ball behavior
