@@ -31,8 +31,8 @@ Choice of sensor two Sonar sensor, one color sensor, one light sensor. We read a
   stuck in one room, to break the loop after certain number of left turn we are switching to right turn(clock 90-degree rotation).
   2.	Wonder: In wonder behavior robot randomly turn left or right direction, move forward in one tile length and look for fire near its 
   proximity.
-  3.	Fire Detection: Robot looks in 360 direction from its current location for find the fire. Once it defects the fire it interrupts the 
-  current task and call for respective task (in this case reach toward fire and initiate extinguish the fire).
-  4.	 Extinguish the Fire: After reaching the goal robot call the extinguish the fire routine and perform the fire extinguish.
+  3.	Fire Detection: Robot looks in 360 direction from its current location for find the fire. Once it defects the fire it interrupts 
+  the current task and call for respective task (in this case reach toward fire and initiate extinguish the fire).
+  4.	Extinguish the Fire: After reaching the goal robot call the extinguish the fire routine and perform the fire extinguish.
 
 
