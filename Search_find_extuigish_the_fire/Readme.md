@@ -47,12 +47,8 @@ Choice of sensor two Sonar sensor, one color sensor, one light sensor. We read a
    6)MoveAwayFromRightWall : Handle control level command to maintain safe distance from right side wall
    
 <br/>Click on below image to watch video
-[![Watch Video here](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_171113.jpg)](https://youtu.be/9mtCbAwiF3U)
-   
- <br/>Click on below image to watch video
-[![Watch Video here (https://github.com/BhaskarTrivedi/Robotics/blob/master/Search_find_extuigish_the_fire/Image/IMG_20191125_133910.jpg)](https://youtu.be/9mtCbAwiF3U)
- 
- 
+[![Watch Video here](https://github.com/BhaskarTrivedi/Robotics/blob/master/Search_find_extuigish_the_fire/Image/IMG_20191125_133910.jpg)](https://youtu.be/9mtCbAwiF3U)
+
 
 ![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/Search_find_extuigish_the_fire/Image/IMG_20191125_133919.jpg)
 
