@@ -46,8 +46,10 @@ Choice of sensor two Sonar sensor, one color sensor, one light sensor. We read a
    5) RotateFan : HAndle control level command to start fan to extuiguish the fire
    6)MoveAwayFromRightWall : Handle control level command to maintain safe distance from right side wall
    
-   
- ![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/Search_find_extuigish_the_fire/Image/IMG_20191125_133910.jpg)
+ <br/>Click on below image to watch video
+[![Watch Video here (https://github.com/BhaskarTrivedi/Robotics/blob/master/Search_find_extuigish_the_fire/Image/IMG_20191125_133910.jpg)](https://youtu.be/9mtCbAwiF3U)
+ 
+ 
 
 ![Robot design](https://github.com/BhaskarTrivedi/Robotics/blob/master/Search_find_extuigish_the_fire/Image/IMG_20191125_133919.jpg)
 
