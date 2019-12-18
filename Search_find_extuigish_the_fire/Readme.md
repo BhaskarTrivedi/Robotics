@@ -34,5 +34,16 @@ Choice of sensor two Sonar sensor, one color sensor, one light sensor. We read a
   3.	Fire Detection: Robot looks in 360 direction from its current location for find the fire. Once it defects the fire it interrupts 
   the current task and call for respective task (in this case reach toward fire and initiate extinguish the fire).
   4.	Extinguish the Fire: After reaching the goal robot call the extinguish the fire routine and perform the fire extinguish.
+  
+  **Control Module**<br/>
+  
+   1) move_forward: Responsible to handle low level control of robot to keep it moving in forward direction of the given length and 
+   speed
+   2) move_backward: Responsible to handle low level control of robot to keep it moving in backward direction of the given length and 
+   speed
+   3) turn_clockwise: Handle the control level command to make robot turn in clockwise direction with specified angle
+   4) turn_anticlockwise: Handle the control level command to make robot turn in anticlockwise direction with specified angle
+   5) RotateFan : HAndle control level command to start fan to extuiguish the fire
+   6)MoveAwayFromRightWall : Handle control level command to maintain safe distance from right side wall
 
 
