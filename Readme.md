@@ -12,7 +12,7 @@ In this project two team compete each other in simplefied version of football ma
 <br/>Click on image below for details description of SimplifiedFootball
 [![Watch Video here](https://github.com/BhaskarTrivedi/Robotics/blob/master/SimplifiedFootball/Image/IMG_20191212_170613.jpg)](https://github.com/BhaskarTrivedi/Robotics/tree/master/SimplifiedFootball)
  
-**Search, find and extuigish the fire**
+<br/>**Search, find and extuigish the fire**<br/>
 Search, find and extuigish the fire This project is design to explore the unknown territory and perform the desire task using autonomous 
 robot. Robot will start any of the room which is not know to it before time. It have to explore all map find out the fire source( candle 
 light) and extuigish it to remove fire hazard.
